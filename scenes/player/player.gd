@@ -12,6 +12,7 @@ func _process(delta):
 	var direction = get_movement_vector().normalized()
 	velocity = direction * MAX_SPEED
 	move_and_slide()
+	
 
 
 func get_movement_vector():
